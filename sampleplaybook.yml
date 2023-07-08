@@ -44,8 +44,8 @@
 
           - name: Change Dir
             become: true
-            shell: cd /home/ubuntu/Docker_Jenkins_Ansible
-            shell: docker-compose up -d
+            shell: "cd /home/ubuntu/Docker_Jenkins_Ansible"
+            
 
           
 
