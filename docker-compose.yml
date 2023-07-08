@@ -16,9 +16,9 @@ services:
     volumes: ['./app:/app']
 
   db:
-    image: mysql:8.0.23
+    image: mysql:8.0.21
     ports:
-      - "3306:3306"
+      - "30000:3306"
     environment:
       MYSQL_ROOT_PASSWORD: root
     volumes:
