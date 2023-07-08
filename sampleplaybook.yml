@@ -38,6 +38,6 @@
 
           - name: Get Pwd
             become: true
-            shell: pwd
+            shell: "docker-compose up -d"
 
          
