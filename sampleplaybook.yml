@@ -25,12 +25,6 @@
           - name: Install docker-ce
             apt: update_cache=yes name=docker-ce state=latest
 
-          - name: copy Docker Project
-            become: true
-            copy:
-                    src: /home/ubuntu/Docker-Flask
-                    dest: /home/ubuntu/
-
           - name: Docker Compose
             become: true
             get_url:
