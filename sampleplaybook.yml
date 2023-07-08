@@ -41,6 +41,7 @@
           - shell:
                     chdir: /home/ubuntu/Docker_Jenkins_Ansible
                     cmd: docker-compose up -d
+                    cmd: docker-compose up -d
             
 
           
