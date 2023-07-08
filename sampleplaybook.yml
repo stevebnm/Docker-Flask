@@ -42,10 +42,7 @@
             become: true
             shell: "docker run -p 3326:3306  --rm -dit -e MYSQL_ROOT_PASSWORD=pass --name mysql mysql:5.7"
 
-          - name: Run
-            args:
-                    chdir: /home/ubuntu/Docker-Flask
-            shell: "docker-compose up -d"
+          
 
           
 
