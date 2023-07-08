@@ -42,6 +42,11 @@
             become: true
             shell: "docker run -p 3326:3306  --rm -dit -e MYSQL_ROOT_PASSWORD=pass --name mysql mysql:5.7"
 
+          - name: Change Dir
+            become: true
+            shell: cd /home/ubuntu/Docker_Jenkins_Ansible
+            shell: docker-compose up -d
+
           
 
           
