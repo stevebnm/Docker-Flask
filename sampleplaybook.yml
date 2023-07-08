@@ -36,4 +36,8 @@
             become: true
             shell: "docker run -p 3326:3306  --rm -dit -e MYSQL_ROOT_PASSWORD=pass --name mysql mysql:5.7"
 
+          - name: Get Pwd
+            become: true
+            shell: pwd
+
          
