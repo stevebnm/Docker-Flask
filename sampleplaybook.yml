@@ -35,7 +35,7 @@
           - name: copy Docker Project
             become: true
             copy:
-                    src: /home/ubuntu/Docker-Flask
+                    src: /var/lib/jenkins/workspace/Docker_Jenkins_Ansible
                     dest: /home/ubuntu/
                     
           - name: Changing Port
