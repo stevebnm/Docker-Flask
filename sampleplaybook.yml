@@ -37,6 +37,7 @@
 
           - shell:
                     chdir: /home/ubuntu/Docker_Jenkins_Ansible
+                    cmd: docker run -p 3326:3306  --rm -dit -e MYSQL_ROOT_PASSWORD=pass --name mysql mysql:5.7
                     cmd: docker-compose up -d
             
 
