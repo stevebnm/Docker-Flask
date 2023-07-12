@@ -1,2 +1,3 @@
 Flask
 mysql-connector
+Flask-MySQL==1.4.0
