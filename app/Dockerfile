@@ -11,5 +11,5 @@ ENV MYSQL_PASS python
 ENV MYSQL_HOST mysql
 ENV MYSQL_DB sample
 
-CMD python3 /app/app.py
+# CMD python3 /app/app.py
 
