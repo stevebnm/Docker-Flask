@@ -7,4 +7,4 @@ done
 echo "MySQL started"
 
 cd /app
-python run.py
+python app.py
