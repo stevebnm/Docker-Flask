@@ -11,5 +11,7 @@ ENV MYSQL_PASS python
 ENV MYSQL_HOST mysql
 ENV MYSQL_DB sample
 
+CMD ["/bin/bash", "/Photos-Docker-Flask/docker-entrypoint.sh"]
+
 # CMD python3 /app/app.py
 
